@@ -73,7 +73,7 @@ int  main(){
     int arrr[3][5]; // declaration
     arrr[1][3] = 78;
     cout << arrr[1][2]; // it will give garbage value as it wasnt declared
-    string s = "Striver";
+    string sr = "Striver";
     s[2] = 'f'; //string data type stores the whole string in char parts
     int len =  s.size(); // s.size() gives size of the string
     cout << s[len-1]; // this prints the last char of the string
